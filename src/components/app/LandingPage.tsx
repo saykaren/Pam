@@ -18,12 +18,12 @@ const LandingPage = ({activeItem}: LandingPageProps) => {
         <>
          <main className="heroSection" id="heroImage">
             <h1 id="heroText2">
-              Karen Garcia
-              <section id="heroTitle">Front End Developer</section>
+              Pam Dougherty's
+              <section id="heroTitle">Quilts</section>
             </h1>
             
           </main>
-          <HeroPicture />
+          
           <FrontPage/>
          
         </>

@@ -3,13 +3,13 @@ import useInterval from 'react-useinterval';
 
 const LogoState = () => {
   const workStates = {
-    0: '...Build me a website',
-    1: '...Teach me to code',
-    2: '...Write in Vanilla JavaScript',
-    3: '...Market my business',
-    4: '...Test my website',
-    5: '...Build a React website',
-    6: '...Teach my TypeScript',
+    0: '...Sew me a quilt',
+    1: '...Write me a novel',
+    2: '...Sew me a dress',
+    3: '...Bake me a cheesecake',
+    4: '...Cater my event',
+    5: '...Sew me a blanket',
+    6: '...Teach me to sew',
   };
 
   const [greeting, setGreeting] = useState(workStates[0]);
@@ -24,7 +24,7 @@ const LogoState = () => {
     // Determine last variable item so I move back to first object in workStates
     let comparing = Object.filter(
       workStates,
-      (x) => x === '...Build a React website',
+      (x) => x === '...Teach me to sew',
     );
     //Variable to determine the last item to know when to change it back to 0 in the object workStates
     let lastItem = Object.values(comparing).toString();

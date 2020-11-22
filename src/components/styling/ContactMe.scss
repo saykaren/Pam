@@ -1,20 +1,20 @@
 .contactMeDetails {
-    border: 0.2rem solid #00a3da;
+    border: 0.2rem solid $primary-color;
     font-size: 1.5rem;
     margin: auto;
     margin-bottom: 0.5rem;
-    background-color: #e6e6e6;
+    background-color: $secondary-color;
     position: relative;
-    color: #00a3da;
+    color: $primary-color;
     width: 45%;
     word-wrap: break-word;
     padding: 1rem;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px $dark-color;
     margin-bottom: 1rem;
   }
   
   .contactMe {
-    color: white;
+    color: $light-color;
     font-size: 2rem;
     padding: 1rem;
   }
