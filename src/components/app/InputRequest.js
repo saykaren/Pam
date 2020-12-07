@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import sayKarenLogoWhite from '../assets/sayKarenWhite.png';
+
 
 const InputRequest = () => {
   const [request, setRequest] = useState('....Build me a website');
@@ -8,12 +8,7 @@ const InputRequest = () => {
   return (
     <div id="userChangeState">
       <section id="stateLogo">
-        <img
-          src={sayKarenLogoWhite}
-          className="footerDetails"
-          id="sayKarenLogoFrontPage"
-          alt="sayKaren.com"
-        />
+
         <Headline headline={request} />
       </section>
       <section id="requestState">
