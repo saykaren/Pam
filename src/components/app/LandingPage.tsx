@@ -1,36 +1,35 @@
-import React, { useState } from "react";
+import React from "react";
 import AboutMe from "./AboutMe";
 import ContactMe from "./ContactMe";
-import FrontPage from "./FrontPage";
-import HeroPicture from "./HeroPicture";
-import LogoState from "./LogoState";
 import MyWork from "./MyWork";
+import MountainBlanket from "../assets/MtBlanket.jpg";
 
 interface LandingPageProps {
-    activeItem: string;
+  activeItem: string;
 }
 
-const LandingPage = ({activeItem}: LandingPageProps) => {
-
+const LandingPage = ({ activeItem }: LandingPageProps) => {
   return (
     <>
       {activeItem === "Home" && (
         <>
-         <main className="heroSection" id="heroImage">
+          <main className="heroSection" id="heroImage">
             <h1 id="heroText2">
               Pam Dougherty's
               <section id="heroTitle">Quilts</section>
+              <img
+                src={MountainBlanket}
+                className=""
+                id="FrontPage"
+                alt="Mountain Quilt"
+              />
             </h1>
-            
           </main>
-          
-          <FrontPage/>
-         
         </>
       )}
-      {activeItem === "MyWork" && <MyWork/>}
-      {activeItem === "AboutMe" && <AboutMe/>}
-      {activeItem === "ContactMe" && <ContactMe/>}
+      {activeItem === "MyWork" && <MyWork />}
+      {activeItem === "AboutMe" && <AboutMe />}
+      {activeItem === "ContactMe" && <ContactMe />}
     </>
   );
 };

@@ -1,36 +1,38 @@
 .contactMeDetails {
-    border: 0.2rem solid $primary-color;
-    font-size: 1.5rem;
-    margin: auto;
-    margin-bottom: 0.5rem;
-    background-color: $secondary-color;
-    position: relative;
-    color: $primary-color;
-    width: 45%;
-    word-wrap: break-word;
-    padding: 1rem;
-    box-shadow: 0 0 10px $dark-color;
-    margin-bottom: 1rem;
-  }
-  
-  .contactMe {
-    color: $light-color;
-    font-size: 2rem;
-    padding: 1rem;
-  }
-  
-  #contactTitle {
-    text-align: center;
-    padding: 1rem;
-  }
-  
+  border: 0.2rem solid $primary-color;
+  font-size: 16px;
+  margin: auto;
+  margin-bottom: 0.5rem;
+  background-color: $secondary-color;
+  position: relative;
+  color: $primary-color;
+  width: 45%;
+  word-wrap: break-word;
+  padding: 1rem;
+  box-shadow: 0 0 10px $dark-color;
+  margin-bottom: 1rem;
+}
 
-  #stateLogo {
-      display: flex;
-      justify-content: center;
-  }
+.contactMe {
+  color: $light-color;
+  font-size: 16px;
+  padding: 1rem;
+}
 
-  #sayKarenLogoFrontPage {
-      height: 100px;
-      margin-right: -33px;
-  }
+#contactTitle {
+  text-align: center;
+  padding: 1rem;
+}
+
+#stateLogo {
+  display: flex;
+  justify-content: center;
+}
+
+#FrontPage {
+  margin-right: -33px;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 3px 3px 3px 3px rgba(255,255,255, 0.3);
+  border-radius: 10px;
+}
